@@ -1,0 +1,377 @@
+.topdiv {
+    background: linear-gradient(#00B14F 50%, white 50%);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+
+}
+
+.topdiv>div {
+    border-radius: 10px;
+    width: 90%;
+    height: 80px;
+    box-shadow: 0px 2px 4px 4px rgba(96, 96, 96, 0.75);
+    background-color: white;
+    padding: 0 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    cursor: pointer;
+
+}
+
+
+
+
+
+.topdiv div input {
+    width: 100%;
+    height: 70px;
+    border: none;
+    border-right: 2px solid rgb(233, 230, 230);
+    padding-left: 20px;
+    letter-spacing: 0.7px;
+    outline: none;
+    font-size: 16px;
+}
+
+.seconddiv {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+
+    overflow: scroll;
+
+
+
+}
+
+.seconddiv>div {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+h4 {
+    font-weight: 300;
+    font-family: arial;
+    letter-spacing: 0.6px;
+    margin-bottom: 0;
+    padding: 0;
+
+}
+
+.gtplus {
+    display: flex;
+    width: 100%;
+
+}
+
+.gtplus div:nth-child(2) {
+    width: 70%;
+
+}
+
+.seconddiv>div:hover {
+    background-color: rgb(185, 182, 182);
+}
+
+.thirddiv {
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.thirddiv>div {
+    width: 45%;
+    height: 100px;
+    background-color: rgb(210, 210, 210);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.thirddiv>div>div {
+    width: 90%;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.thirddiv>div>div:nth-child(2) {
+    width: 10%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirddiv>div>div>h4 {
+    margin-top: 0;
+
+}
+
+.thirddiv>div>div>h4:nth-child(2) {
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.allydiv {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+}
+
+.fourthdiv,
+.fifthdiv {
+    height: 380px;
+    width: 30%;
+    margin: 20px 10px 0 35px;
+    cursor: pointer;
+    transition: all 1s;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: scroll;
+    
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.fifthdiv {
+    width: 56%;
+    border: 2px solid green;
+
+   
+   
+   
+}
+
+.fourthdiv>div {
+    display: flex;
+    cursor: pointer;
+
+
+
+}
+
+.fifthdiv>div {
+    display: flex;
+    cursor: pointer;
+}
+
+.fourthdiv div span {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial;
+
+}
+
+.fourthdiv>div>div {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.fourthdiv>span {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: arial;
+}
+
+.fifthdiv div div {
+    margin-left: 10px;
+}
+
+.fifthdiv > div > span{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial;
+}
+
+.restaurantyoulikesecond{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.restaurant {
+    width: 143px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+
+    text-align: center;
+    border-radius: 10px;
+    transition: all 1s;   
+
+}
+
+.restaurant div{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    
+    justify-content:flex-start;
+    align-items: flex-end;
+}
+
+#bistro,#burma{
+    font-size: 15px;
+    font-weight: 500;
+font-family: arial;
+}
+
+
+
+.fourthdiv:hover {
+    background-color: rgb(185, 182, 182);
+}
+
+.restaurant:hover {
+    background-color: rgb(185, 182, 182);
+}
+
+@media(max-width:400px) {
+    .seconddiv {
+        overflow: scroll;
+    }
+
+    .seconddiv>div {
+        width: 40px;
+        margin: 5px;
+    }
+
+    .seconddiv>div>img {
+        width: 35px;
+    }
+
+    h4 {
+        font-size: 10px;
+
+
+    }
+
+    .gtplus {
+        overflow: hidden;
+    }
+
+    .seconddiv>div:nth-child(8) .gtplus div img {
+        width: 15px;
+    }
+
+    .seconddiv>div:nth-child(8) .gtplus div:nth-child(2) img {
+
+        width: 35px;
+    }
+
+    div:nth-child(8)>h4 {
+        font-weight: 600;
+        font-size: 9px;
+    }
+
+    .topdiv>div {
+        width: 80%;
+        height: 40px;
+    }
+
+    .topdiv>div>img {
+        width: 13px;
+    }
+
+
+
+
+    .topdiv>div>input {
+        height: 30px;
+        font-size: 10px;
+        font-family: arial;
+    }
+
+    .thirddiv>div {
+        width: 40%;
+        height: 50px;
+    }
+
+    .thirddiv>div>div {
+        height: 50px;
+
+    }
+
+    .thirddiv>div>div:nth-child(2) {
+        height: 50px;
+        width: 10%;
+
+
+    }
+
+    .thirddiv>div>div>h4:nth-child(2) {
+        margin-top: 10px;
+        font-weight: 600;
+    }
+
+    .thirddiv>div>div:nth-child(2)>img {
+        width: 20px;
+    }
+.allydiv{
+    display: flex;
+justify-content: flex-start;
+}
+    .fourthdiv {
+        margin: 0 auto;
+        height: 250px;
+        width: 100%;
+    }
+
+    .fourthdiv div span {
+        font-size: 17px;
+        font-weight: 500;
+
+    }
+
+    .fourthdiv>div>div {
+        margin-left: 10px;
+    }
+
+    .fourthdiv div img {
+        width: 20px;
+
+    }
+
+    .fourthdiv>img {
+        width: 300px;
+    }
+
+    .fourthdiv>span {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .fifthdiv {
+        margin:0    
+    }
+
+
+}
